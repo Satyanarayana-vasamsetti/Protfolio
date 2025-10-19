@@ -10,7 +10,7 @@ const Hero = () => {
   const handleResumeDownload = () => {
     // Replace with actual resume file path
     const link = document.createElement('a');
-    link.href = 'public/resume.pdf'; // Add your resume file to public folder
+    link.href = './resume.pdf'; 
     link.download = 'Satyanarayana_Resume.pdf';
     link.click();
   };
